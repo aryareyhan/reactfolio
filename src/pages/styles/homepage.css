@@ -43,6 +43,7 @@
 
 .homepage-image-wrapper {
 	overflow: hidden;
+	height: 100%;
 	border-radius: 10%;
 	transform: rotate(3deg);
 }

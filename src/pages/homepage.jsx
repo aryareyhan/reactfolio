@@ -145,9 +145,9 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
-							
+
 							<a
-								href={`mailto:${INFO.socials.spotify}`}
+								href={INFO.socials.spotify}
 								target="_blank"
 								rel="noreferrer"
 							>
