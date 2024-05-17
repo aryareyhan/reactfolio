@@ -4,12 +4,12 @@ import { Helmet } from "react-helmet";
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
-import Socials from "../components/about/socials";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "./styles/about.css";
+import Skills from "../components/about/skills";
 
 const About = () => {
 	useEffect(() => {
@@ -48,6 +48,10 @@ const About = () => {
 								<div className="subtitle about-subtitle">
 									{INFO.about.description}
 								</div>
+								
+								<div className="subtitle about-subtitle">
+									{INFO.about.description2}
+								</div>
 							</div>
 
 							<div className="about-left-side">
@@ -62,12 +66,12 @@ const About = () => {
 								</div>
 
 								<div className="about-socials">
-									<Socials />
+									<Skills />
 								</div>
 							</div>
 						</div>
 						<div className="about-socials-mobile">
-							<Socials />
+							<Skills />
 						</div>
 					</div>
 					<div className="page-footer">

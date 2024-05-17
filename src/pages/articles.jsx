@@ -8,7 +8,7 @@ import Article from "../components/articles/article";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
-import myArticles from "../data/articles";
+import { myArticles, myWorks, myOrgs } from "../data/articles";
 
 import "./styles/articles.css";
 
@@ -22,7 +22,7 @@ const Articles = () => {
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>{`Articles | ${INFO.main.title}`}</title>
+				<title>{`Portfolio | ${INFO.main.title}`}</title>
 				<meta name="description" content={currentSEO.description} />
 				<meta
 					name="keywords"
@@ -44,8 +44,8 @@ const Articles = () => {
 							{INFO.articles.title}
 						</div>
 
-						<div className="subtitle articles-subtitle">
-							{INFO.articles.description}
+						<div className="subtitle articles-subtitle"style={{ fontSize: "30px" }}>
+							Education
 						</div>
 
 						<div className="articles-container">
@@ -60,7 +60,51 @@ const Articles = () => {
 											date={article().date}
 											title={article().title}
 											description={article().description}
-											link={"/article/" + (index + 1)}
+										/>
+									</div>
+								))}
+							</div>
+						</div>
+
+						<div className="subtitle articles-subtitle"style={{ fontSize: "30px" }}>Work</div>
+
+						<div className="articles-container">
+							<div className="articles-wrapper">
+								{myWorks.map((article, index) => (
+									<div
+										className="articles-article"
+										key={(index + 1).toString()}
+									>
+										<Article
+											key={(index + 1).toString()}
+											date={article().date}
+											title={article().title}
+											description={article().description}
+										/>
+									</div>
+								))}
+							</div>
+						</div>
+
+						<div
+							className="subtitle articles-subtitle"
+							style={{ fontSize: "30px" }}
+						>
+							Organizational
+						</div>
+
+						<div className="articles-container">
+							<div className="articles-wrapper">
+								{myOrgs.map((article, index) => (
+									<div
+										className="articles-article"
+										key={(index + 1).toString()}
+									>
+										<Article
+											key={(index + 1).toString()}
+											date={article().date}
+											title={article().title}
+											description={article().description}
 										/>
 									</div>
 								))}

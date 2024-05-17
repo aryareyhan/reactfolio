@@ -44,21 +44,21 @@ const Contact = () => {
 						</div>
 
 						<div className="subtitle contact-subtitle">
-							Thank you for your interest in getting in touch with
-							me. I welcome your feedback, questions, and
-							suggestions. If you have a specific question or
-							comment, please feel free to email me directly at
-							&nbsp;{" "}
-							<a href={`mailto:${INFO.main.email}`}>
-								{INFO.main.email}
+							Thank you for reaching out! I'm enthusiastic about
+							exploring new job opportunities and expanding my
+							network, as well as making new friends along the
+							way. Your feedback, questions, and suggestions are
+							highly valued. If you'd like to connect or have any
+							inquiries, feel free to reach out via Instagram at
+							&nbsp;{""}
+							<a
+								href={`mailto:${INFO.socials.instagram}`}
+								target="_blank"
+								rel="noreferrer"
+							>
+								{INFO.socials.instagram}
 							</a>
-							. I make an effort to respond to all messages within
-							24 hours, although it may take me longer during busy
-							periods. Alternatively, you can use the contact form
-							on my website to get in touch. Simply fill out the
-							required fields and I'll get back to you as soon as
-							possible. Finally, if you prefer to connect on
-							social media, you can find me on{" "}
+							. or connect with me on LinkedIn at{" "}
 							<a
 								href={INFO.socials.instagram}
 								target="_blank"
@@ -66,10 +66,9 @@ const Contact = () => {
 							>
 								{INFO.socials.instagram}
 							</a>
-							. I post regular updates and engage with my
-							followers there, so don't hesitate to reach out.
-							Thanks again for your interest, and I look forward
-							to hearing from you!
+							. I'm active on both platforms and look forward to
+							engaging with you there. Thank you once again for
+							your interest, and I'm excited to connect with you!
 						</div>
 					</div>
 
