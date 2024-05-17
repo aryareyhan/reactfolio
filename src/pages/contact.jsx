@@ -60,11 +60,11 @@ const Contact = () => {
 							</a>
 							. or connect with me on LinkedIn at{" "}
 							<a
-								href={INFO.socials.instagram}
+								href={INFO.socials.linkedin}
 								target="_blank"
 								rel="noreferrer"
 							>
-								{INFO.socials.instagram}
+								{INFO.socials.linkedin}
 							</a>
 							. I'm active on both platforms and look forward to
 							engaging with you there. Thank you once again for
