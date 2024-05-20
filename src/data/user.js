@@ -49,7 +49,6 @@ const INFO = {
 			description:
 				"GameHI is my playground for mastering Swift Storyboard, boasting a sleek and intuitive UI design. This mobile game management app is where simplicity meets functionality, serving as my learning canvas for Swift Storyboard proficiency.",
 			logo: faSwift,
-			linkText: "View Project",
 			link: "https://github.com/aryareyhan/GameHI",
 		},
 
@@ -58,7 +57,6 @@ const INFO = {
 			description:
 				"Bluejack Pharmacy serves as my learning ground for mastering simple CRUD operations on Android using Java. It's a mobile pharmacy app empowering users to purchase medicines conveniently.",
 			logo: faAndroid,
-			linkText: "View Project",
 			link: "https://github.com/aryareyhan/BluejackV2",
 		},
 
@@ -67,7 +65,6 @@ const INFO = {
 			description:
 				"Redbull News marks my debut in Android app development using Java for the platform. It's my initial foray into the language, designed to immerse myself in its intricacies and functionalities.",
 			logo: faAndroid,
-			linkText: "View Project",
 			link: "https://github.com/aryareyhan/RedbullNews",
 		},
 
@@ -76,7 +73,6 @@ const INFO = {
 			description:
 				"An Android app designed for university project, facilitating easier parking in public lots by connecting with an Arduino module. The app assigns users to available parking spots for added convenience.",
 			logo: faC,
-			linkText: "View Project",
 			link: "https://github.com/aryareyhan/ArduinoParkingAuto",
 		},
 
@@ -94,7 +90,6 @@ const INFO = {
 			description:
 				"This React-based app was created as a personal learning project. It offers a user-friendly interface for managing contacts efficiently. Explore features such as adding, editing, and deleting contacts, all designed to enhance familiarity with React development.",
 			logo: faJsSquare,
-			linkText: "View Project",
 			link: "https://github.com/aryareyhan/ContactsApp",
 		},
 	],

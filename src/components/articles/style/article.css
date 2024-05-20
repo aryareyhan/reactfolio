@@ -22,7 +22,7 @@
 	padding: 30px;
 }
 
-.article-right-side:hover {
+.article:hover {
 	background: #fafafa;
 	opacity: 1;
 	transition: background-color 0.3s ease-in-out;

@@ -9,7 +9,7 @@ function binus() {
 
 function bca() {
 	return {
-		date: "19 Feb - Present",
+		date: "19 Feb 2024 - Present",
 		title: "App Developer Intern - Bank Central Asia",
 		description:
 			"Responsible in handling applications related to customer service, spanning from mobile applications and websites to social media and several internal applications. Specifically, my team focuses on the development and enhancement of these applications, application monitoring, DevOps automation, and application testing.",
@@ -44,15 +44,15 @@ function fp() {
 }
 
 function mc() {
-    return {
-        date: "Oct 2021 - May 2022",
-        title: "Master of Ceremony",
-        description:
-            "• CSR 2021: Co-organized a seminar with BNCC Bandung, Dicoding Indonesia, and TFI Bandung, attracting over 800 attendees.\n" +
-            "• BINECHA 2022: Collaborated on a Mobile Legends tournament with HIMTI BINUS Bandung and Binus TV, engaging 16 high schools from across Bandung.\n" +
-            "• Telkom Comparative Study: Co-hosted an event with HIMAIF Telkom University, evaluating organizational challenges.\n" +
-            "• LnT Camp 2022: Contributed to a summer course by BNCC Bandung, focusing on Web Development covering Front End, Back End, and UI/UX.",
-    };
+	return {
+		date: "Oct 2021 - May 2022",
+		title: "Master of Ceremony",
+		description:
+			"• CSR 2021: Co-organized a seminar with BNCC Bandung, Dicoding Indonesia, and TFI Bandung, attracting over 800 attendees.\n" +
+			"• BINECHA 2022: Collaborated on a Mobile Legends tournament with HIMTI BINUS Bandung and Binus TV, engaging 16 high schools from across Bandung.\n" +
+			"• Telkom Comparative Study: Co-hosted an event with HIMAIF Telkom University, evaluating organizational challenges.\n" +
+			"• LnT Camp 2022: Contributed to a summer course by BNCC Bandung, focusing on Web Development covering Front End, Back End, and UI/UX.",
+	};
 }
 
 function pr() {

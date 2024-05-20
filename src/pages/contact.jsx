@@ -49,8 +49,7 @@ const Contact = () => {
 							network, as well as making new friends along the
 							way. Your feedback, questions, and suggestions are
 							highly valued. If you'd like to connect or have any
-							inquiries, feel free to reach out via Instagram at
-							&nbsp;{""}
+							inquiries, feel free to reach me out via Instagram at{" "}
 							<a
 								href={`mailto:${INFO.socials.instagram}`}
 								target="_blank"

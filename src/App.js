@@ -11,6 +11,7 @@ import Notfound from "./pages/404";
 
 import { TRACKING_ID } from "./data/tracking";
 import "./app.css";
+import ProjectDetail from "./pages/projectdetail";
 
 function App() {
 	useEffect(() => {
@@ -25,6 +26,7 @@ function App() {
 				<Route path="/" element={<Homepage />} />
 				<Route path="/about" element={<About />} />
 				<Route path="/projects" element={<Projects />} />
+				<Route path="/projects/:index" element={<ProjectDetail />} />
 				<Route path="/portfolio" element={<Articles />} />
 				<Route path="/contact" element={<Contact />} />
 				<Route path="*" element={<Notfound />} />

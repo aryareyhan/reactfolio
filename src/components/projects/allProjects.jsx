@@ -1,9 +1,6 @@
 import React from "react";
-
 import Project from "./project";
-
 import INFO from "../../data/user";
-
 import "./styles/allProjects.css";
 
 const AllProjects = () => {
@@ -15,8 +12,9 @@ const AllProjects = () => {
 						logo={project.logo}
 						title={project.title}
 						description={project.description}
-						linkText={project.linkText}
-						link={project.link}
+						linkText={"View project on Github"}
+						github={project.link}
+						link={`/projects/${index}`}
 					/>
 				</div>
 			))}

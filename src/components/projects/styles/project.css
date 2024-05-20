@@ -15,6 +15,7 @@
 	background: #fafafa;
 	opacity: 1;
 	transition: background-color 0.3s ease-in-out;
+	cursor: pointer;
 }
 
 .project:hover .project-link {
@@ -35,7 +36,7 @@
 }
 
 .project-title {
-	font-family: var(--secondary-font);
+	/* font-family: var(--secondary-font); */
 	color: var(--primary-color);
 	font-size: 16px;
 	padding-top: 15px;
