@@ -14,13 +14,10 @@ import {
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
-import Article from "../components/homepage/article";
-import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
-import myArticles from "../data/articles";
 
 import "./styles/homepage.css";
 
@@ -84,8 +81,8 @@ const Homepage = () => {
 				<NavBar active="home" />
 				<div className="content-wrapper">
 					<div className="homepage-logo-container">
-						<div style={logoStyle}>
-							<Logo width={logoSize} link={false} />
+						<div className="homepage-logo">
+							<Logo width={46} />
 						</div>
 					</div>
 

@@ -13,18 +13,14 @@ import {
 import INFO from "../../data/user";
 
 import "./styles/socials.css";
-import { faC } from "@fortawesome/free-solid-svg-icons";
+import { faC, faDatabase, faF } from "@fortawesome/free-solid-svg-icons";
 
 const Skills = () => {
 	return (
 		<div style={{ display: "flex", gap: "5em", padding: "1em" }}>
 			<div className="socials">
 				<div className="social">
-					<a
-						href={INFO.socials.instagram}
-						target="_blank"
-						rel="noreferrer"
-					>
+					<div>
 						<div className="social-icon">
 							<FontAwesomeIcon
 								icon={faAndroid}
@@ -32,15 +28,11 @@ const Skills = () => {
 							/>
 						</div>
 						<div className="social-text">Android</div>
-					</a>
+					</div>
 				</div>
 
 				<div className="social">
-					<a
-						href={INFO.socials.twitter}
-						target="_blank"
-						rel="noreferrer"
-					>
+					<div>
 						<div className="social-icon">
 							<FontAwesomeIcon
 								icon={faJava}
@@ -48,15 +40,11 @@ const Skills = () => {
 							/>
 						</div>
 						<div className="social-text">Java</div>
-					</a>
+					</div>
 				</div>
 
 				<div className="social">
-					<a
-						href={INFO.socials.linkedin}
-						target="_blank"
-						rel="noreferrer"
-					>
+					<div>
 						<div className="social-icon">
 							<FontAwesomeIcon
 								icon={faSwift}
@@ -64,15 +52,11 @@ const Skills = () => {
 							/>
 						</div>
 						<div className="social-text">Swift</div>
-					</a>
+					</div>
 				</div>
 
 				<div className="social">
-					<a
-						href={INFO.socials.spotify}
-						target="_blank"
-						rel="noreferrer"
-					>
+					<div>
 						<div className="social-icon">
 							<FontAwesomeIcon
 								icon={faReact}
@@ -80,16 +64,24 @@ const Skills = () => {
 							/>
 						</div>
 						<div className="social-text">React</div>
-					</a>
+					</div>
+				</div>
+
+				<div className="social">
+					<div>
+						<div className="social-icon">
+							<FontAwesomeIcon
+								icon={faF}
+								className="social-icon"
+							/>
+						</div>
+						<div className="social-text">Flutter</div>
+					</div>
 				</div>
 			</div>
 			<div className="socials">
 				<div className="social">
-					<a
-						href={INFO.socials.instagram}
-						target="_blank"
-						rel="noreferrer"
-					>
+					<div>
 						<div className="social-icon">
 							<FontAwesomeIcon
 								icon={faHtml5}
@@ -97,15 +89,11 @@ const Skills = () => {
 							/>
 						</div>
 						<div className="social-text">HTML5/CSS</div>
-					</a>
+					</div>
 				</div>
 
 				<div className="social">
-					<a
-						href={INFO.socials.twitter}
-						target="_blank"
-						rel="noreferrer"
-					>
+					<div>
 						<div className="social-icon">
 							<FontAwesomeIcon
 								icon={faJsSquare}
@@ -113,15 +101,11 @@ const Skills = () => {
 							/>
 						</div>
 						<div className="social-text">JavaScript</div>
-					</a>
+					</div>
 				</div>
 
 				<div className="social">
-					<a
-						href={INFO.socials.github}
-						target="_blank"
-						rel="noreferrer"
-					>
+					<div>
 						<div className="social-icon">
 							<FontAwesomeIcon
 								icon={faPython}
@@ -129,15 +113,11 @@ const Skills = () => {
 							/>
 						</div>
 						<div className="social-text">Python</div>
-					</a>
+					</div>
 				</div>
 
 				<div className="social">
-					<a
-						href={INFO.socials.spotify}
-						target="_blank"
-						rel="noreferrer"
-					>
+					<div>
 						<div className="social-icon">
 							<FontAwesomeIcon
 								icon={faC}
@@ -145,7 +125,19 @@ const Skills = () => {
 							/>
 						</div>
 						<div className="social-text">C</div>
-					</a>
+					</div>
+				</div>
+
+				<div className="social">
+					<div>
+						<div className="social-icon">
+							<FontAwesomeIcon
+								icon={faDatabase}
+								className="social-icon"
+							/>
+						</div>
+						<div className="social-text">SQL</div>
+					</div>
 				</div>
 			</div>
 		</div>
