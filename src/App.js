@@ -8,10 +8,11 @@ import Projects from "./pages/projects";
 import Articles from "./pages/articles";
 import Contact from "./pages/contact";
 import Notfound from "./pages/404";
+import ProjectDetail from "./pages/projectdetail";
 
 import { TRACKING_ID } from "./data/tracking";
 import "./app.css";
-import ProjectDetail from "./pages/projectdetail";
+import SakuraPetals from "./components/common/sakura";
 
 function App() {
 	useEffect(() => {
@@ -22,6 +23,7 @@ function App() {
 
 	return (
 		<div className="App">
+			<SakuraPetals />
 			<Routes>
 				<Route path="/" element={<Homepage />} />
 				<Route path="/about" element={<About />} />

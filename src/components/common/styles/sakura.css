@@ -1,0 +1,32 @@
+.sakura-container {
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+
+.sakura-petal {
+    position: absolute;
+    top: -10px; /* Start above the screen */
+    width: 8px;
+    height: 8px;
+    background-color: #A33137; /* Sakura color */
+    border-radius: 12px 1px;
+    animation: fallAndSway linear infinite; /* Combined falling and swaying animation */
+  }
+  
+  @keyframes fallAndSway {
+    0% {
+      transform: translateY(-10px) translateX(0px) rotate(0deg);
+    }
+    50% {
+      transform: translateY(calc(100vh + 10px)) translateX(5px) rotate(10deg); /* Sway to the right */
+    }
+    100% {
+      transform: translateY(calc(100vh + 10px)) translateX(-5px) rotate(-10deg); /* Sway to the left */
+    }
+  }
+  
+  

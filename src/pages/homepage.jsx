@@ -20,6 +20,7 @@ import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "./styles/homepage.css";
+import Sakura from "../components/common/sakura";
 
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
