@@ -47,17 +47,19 @@
 
 .homepage-image-container {
 	width: 370px;
+	height: 370px;
 }
 
 .homepage-image-wrapper {
 	overflow: hidden;
 	width: 100%;
-	border-radius: 2%;
+	height: 100%;
+	border-radius: 5%;
 	transform: rotate(3deg);
 }
 
 .homepage-image-wrapper img {
-	width: 100%;
+	height: 100%;
 }
 
 .homepage-socials {

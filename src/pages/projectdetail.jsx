@@ -9,6 +9,8 @@ import Logo from "../components/common/logo";
 import INFO from "../data/user";
 
 import "./styles/readArticle.css";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const ProjectDetail = () => {
 	const navigate = useNavigate();
@@ -61,8 +63,28 @@ const ProjectDetail = () => {
 							</div>
 
 							<div className="read-article-img-container">
-								<img src={"../projects/arduino.png"} alt="none" srcset="" />
+								<img
+									src={`../projects/${project.img}.png`}
+									alt="none"
+									className="read-article-img"
+								/>
 							</div>
+
+							<a
+								href={project.link}
+								target="_blank"
+								rel="noopener noreferrer"
+								onClick={(e) => e.stopPropagation()}
+							>
+								<div className="project-link">
+									<div className="project-link-icon">
+										<FontAwesomeIcon icon={faLink} />
+									</div>
+									<div className="project-link-text">
+										View project on Github
+									</div>
+								</div>
+							</a>
 						</div>
 					</div>
 
