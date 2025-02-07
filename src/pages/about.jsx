@@ -39,7 +39,7 @@ const About = () => {
 
 					<div className="about-container">
 						<div className="about-main">
-							<div className="about-right-side">
+							<div className="about-left-side">
 								<div className="title about-title">
 									{INFO.about.title}
 								</div>
@@ -47,13 +47,9 @@ const About = () => {
 								<div className="subtitle about-subtitle">
 									{INFO.about.description}
 								</div>
-
-								<div className="subtitle about-subtitle">
-									{INFO.about.description2}
-								</div>
 							</div>
 
-							<div className="about-left-side">
+							<div className="about-right-side">
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
@@ -63,14 +59,13 @@ const About = () => {
 										/>
 									</div>
 								</div>
-
+								<div className="subtitle about-info">
+									{INFO.about.info}
+								</div>
 								<div className="about-socials">
 									<Skills />
 								</div>
 							</div>
-						</div>
-						<div className="about-socials-mobile">
-							<Skills />
 						</div>
 					</div>
 				</div>

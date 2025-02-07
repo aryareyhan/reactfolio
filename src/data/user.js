@@ -26,17 +26,17 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Hi there, welcome to Arya's Website ✨",
+		title: "Hi there, welcome to Arya's Website. ✨",
 		description:
 			"I'm a Computer Science student who's passionate about technology, currently expanding my expertise in data science, data analysis, and machine learning to stay ahead in the industry. As a software developer, I have strengths in full-stack web and mobile application development, crafting robust, user-friendly applications for iOS, Android, and web platforms. I thrive on tackling new challenges and continuously seek opportunities to grow as a versatile and innovative developer.",
+		info: "I'm currently looking for an internship!",
 	},
 
 	about: {
-		title: "I'm Arya R., finding happiness in every day, here in Indonesia.",
+		title: "Here lies some facts about myself. 🧭",
 		description:
 			"As a Computer Science student, I am deeply passionate about mobile app technology, with a specific focus on Android programming. My enthusiasm for this field drives me to continually explore and expand my knowledge. I have a proven track record as a fast learner, especially when it comes to topics that genuinely captivate my interest. My ability to effectively communicate and connect with others sets me apart. I excel in public speaking and have leveraged my skills as an MC for various online organizational events. This experience has honed my interpersonal and leadership skills, allowing me to collaborate engage with audiences effectively.",
-		description2:
-			"I've worked on several projects over the years and I'm proud of the progress I've made. Most of my work has been focused on mobile app development. While I have only a few projects, I strive to create high-quality, impactful apps. Currently, I'm doing an internship where I'm further honing my skills.",
+		info: "Here's some skills I've picked up",
 	},
 
 	articles: {

@@ -108,7 +108,7 @@ const Homepage = () => {
 									</div>
 								</div>
 								<div className="subtitle homepage-info">
-									I'm currently looking for an internship!
+									{INFO.homepage.info}
 								</div>
 								<div className="homepage-socials">
 									<a
