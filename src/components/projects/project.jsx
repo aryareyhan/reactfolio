@@ -17,10 +17,15 @@ const Project = (props) => {
 		<React.Fragment>
 			<div className="project" onClick={navigateToDetail}>
 				<div className="project-container">
-					<div className="social-icon">
-						<FontAwesomeIcon icon={logo} className="social-icon" />
+					<div className="project-title">
+						<div className="social-icon">
+							<FontAwesomeIcon
+								icon={logo}
+								className="social-icon"
+							/>
+						</div>
+						{title}
 					</div>
-					<div className="project-title">{title}</div>
 					{/* <div className="project-description">{description}</div> */}
 					<a
 						href={github}

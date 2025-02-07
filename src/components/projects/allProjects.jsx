@@ -12,10 +12,10 @@ const AllProjects = () => {
 						logo={project.logo}
 						title={project.title}
 						description={project.description}
-						linkText={"View project on Github"}
+						linkText={"Github"}
 						github={project.link}
 						link={`/projects/${index}`}
-					/>	
+					/>
 				</div>
 			))}
 		</div>
