@@ -34,4 +34,8 @@
 	.projects-project {
 		width: calc(100% / 2);
 	}
+
+	.projects-logo {
+		display: none;
+	}
 }

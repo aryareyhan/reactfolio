@@ -15,7 +15,7 @@ const AllProjects = () => {
 						linkText={"View project on Github"}
 						github={project.link}
 						link={`/projects/${index}`}
-					/>
+					/>	
 				</div>
 			))}
 		</div>

@@ -26,9 +26,9 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Mobile App and Full Stack Developer.",
+		title: "Hi there, welcome to Arya's Website ✨",
 		description:
-			"I am a mobile developer with expertise in creating robust, user-friendly applications for both iOS and Android platforms. I enjoy solving complex problems and continuously expanding my skill set. Currently, I am also studying full stack web development to broaden my capabilities and stay ahead in the industry. I am passionate about writing high-quality code that adheres to best practices and industry standards. I am always seeking new challenges and opportunities to grow as a developer.",
+			"I'm a Computer Science student who's passionate about technology, currently expanding my expertise in data science, data analysis, and machine learning to stay ahead in the industry. As a software developer, I have strengths in full-stack web and mobile application development, crafting robust, user-friendly applications for iOS, Android, and web platforms. I thrive on tackling new challenges and continuously seek opportunities to grow as a versatile and innovative developer.",
 	},
 
 	about: {
@@ -99,7 +99,7 @@ const INFO = {
 			link: "https://github.com/aryareyhan/ContactsApp",
 			img: "contactlist",
 		},
-		
+
 		{
 			title: "Keyboard Store",
 			description:
@@ -108,7 +108,7 @@ const INFO = {
 			link: "https://github.com/aryareyhan/KeyboardStore",
 			img: "keyboard",
 		},
-		
+
 		{
 			title: "To do list",
 			description:
@@ -117,7 +117,7 @@ const INFO = {
 			link: "https://github.com/aryareyhan/ToDoList",
 			img: "todolist",
 		},
-		
+
 		{
 			title: "AA Hotel",
 			description:

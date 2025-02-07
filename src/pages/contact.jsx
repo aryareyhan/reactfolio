@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
 
 import NavBar from "../components/common/navBar";
-import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
 
@@ -49,7 +48,8 @@ const Contact = () => {
 							network, as well as making new friends along the
 							way. Your feedback, questions, and suggestions are
 							highly valued. If you'd like to connect or have any
-							inquiries, feel free to reach me out via Instagram at{" "}
+							inquiries, feel free to reach me out via Instagram
+							at{" "}
 							<a
 								href={`mailto:${INFO.socials.instagram}`}
 								target="_blank"
@@ -75,10 +75,6 @@ const Contact = () => {
 						<div className="contact-socials">
 							<Socials />
 						</div>
-					</div>
-
-					<div className="page-footer">
-						<Footer />
 					</div>
 				</div>
 			</div>

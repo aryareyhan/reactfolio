@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
 
 import NavBar from "../components/common/navBar";
-import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 
 import INFO from "../data/user";
@@ -48,7 +47,7 @@ const About = () => {
 								<div className="subtitle about-subtitle">
 									{INFO.about.description}
 								</div>
-								
+
 								<div className="subtitle about-subtitle">
 									{INFO.about.description2}
 								</div>
@@ -73,9 +72,6 @@ const About = () => {
 						<div className="about-socials-mobile">
 							<Skills />
 						</div>
-					</div>
-					<div className="page-footer">
-						<Footer />
 					</div>
 				</div>
 			</div>

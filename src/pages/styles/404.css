@@ -78,6 +78,10 @@
 		transform: none;
 	}
 
+	.notfound-logo {
+		display: none;
+	}
+
 	.notfound-title {
 		font-size: 50px;
 	}

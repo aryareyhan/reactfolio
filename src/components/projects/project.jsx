@@ -21,15 +21,18 @@ const Project = (props) => {
 						<FontAwesomeIcon icon={logo} className="social-icon" />
 					</div>
 					<div className="project-title">{title}</div>
-					<div className="project-description">{description}</div>
-					<a href={github} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()}>
+					{/* <div className="project-description">{description}</div> */}
+					<a
+						href={github}
+						target="_blank"
+						rel="noopener noreferrer"
+						onClick={(e) => e.stopPropagation()}
+					>
 						<div className="project-link">
 							<div className="project-link-icon">
 								<FontAwesomeIcon icon={faLink} />
 							</div>
-							<div className="project-link-text">
-								{linkText}
-							</div>
+							<div className="project-link-text">{linkText}</div>
 						</div>
 					</a>
 				</div>

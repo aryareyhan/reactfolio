@@ -12,7 +12,6 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
-import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
 import AllProjects from "../components/projects/allProjects";
 
@@ -108,59 +107,53 @@ const Homepage = () => {
 										/>
 									</div>
 								</div>
+								<div className="subtitle homepage-info">
+									I'm currently looking for an internship!
+								</div>
+								<div className="homepage-socials">
+									<a
+										href={INFO.socials.instagram}
+										target="_blank"
+										rel="noreferrer"
+									>
+										<FontAwesomeIcon
+											icon={faInstagram}
+											className="homepage-social-icon"
+										/>
+									</a>
+									<a
+										href={INFO.socials.github}
+										target="_blank"
+										rel="noreferrer"
+									>
+										<FontAwesomeIcon
+											icon={faGithub}
+											className="homepage-social-icon"
+										/>
+									</a>
+									<a
+										href={INFO.socials.linkedin}
+										target="_blank"
+										rel="noreferrer"
+									>
+										<FontAwesomeIcon
+											icon={faLinkedin}
+											className="homepage-social-icon"
+										/>
+									</a>
+
+									<a
+										href={INFO.socials.spotify}
+										target="_blank"
+										rel="noreferrer"
+									>
+										<FontAwesomeIcon
+											icon={faSpotify}
+											className="homepage-social-icon"
+										/>
+									</a>
+								</div>
 							</div>
-						</div>
-
-						<div className="homepage-socials">
-							<a
-								href={INFO.socials.instagram}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faInstagram}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
-								href={INFO.socials.github}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faGithub}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
-								href={INFO.socials.linkedin}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faLinkedin}
-									className="homepage-social-icon"
-								/>
-							</a>
-
-							<a
-								href={INFO.socials.spotify}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faSpotify}
-									className="homepage-social-icon"
-								/>
-							</a>
-						</div>
-
-						<div className="homepage-projects">
-							<AllProjects />
-						</div>
-
-						<div className="page-footer">
-							<Footer />
 						</div>
 					</div>
 				</div>

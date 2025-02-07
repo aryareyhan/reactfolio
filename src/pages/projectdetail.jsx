@@ -3,7 +3,6 @@ import { useParams, useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
 import NavBar from "../components/common/navBar";
-import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 
 import INFO from "../data/user";
@@ -86,10 +85,6 @@ const ProjectDetail = () => {
 								</div>
 							</a>
 						</div>
-					</div>
-
-					<div className="page-footer">
-						<Footer />
 					</div>
 				</div>
 			</div>

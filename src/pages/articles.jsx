@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
 
 import NavBar from "../components/common/navBar";
-import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Article from "../components/articles/article";
 
@@ -44,7 +43,10 @@ const Articles = () => {
 							{INFO.articles.title}
 						</div>
 
-						<div className="subtitle articles-subtitle"style={{ fontSize: "30px" }}>
+						<div
+							className="subtitle articles-subtitle"
+							style={{ fontSize: "30px" }}
+						>
 							Education
 						</div>
 
@@ -66,7 +68,12 @@ const Articles = () => {
 							</div>
 						</div>
 
-						<div className="subtitle articles-subtitle"style={{ fontSize: "30px" }}>Work</div>
+						<div
+							className="subtitle articles-subtitle"
+							style={{ fontSize: "30px" }}
+						>
+							Work
+						</div>
 
 						<div className="articles-container">
 							<div className="articles-wrapper">
@@ -110,9 +117,6 @@ const Articles = () => {
 								))}
 							</div>
 						</div>
-					</div>
-					<div className="page-footer">
-						<Footer />
 					</div>
 				</div>
 			</div>

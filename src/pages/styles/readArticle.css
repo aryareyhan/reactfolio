@@ -78,3 +78,9 @@
 .project-link {
 	margin: auto;
 }
+
+@media (max-width: 1024px) {
+	.read-article-logo {
+		display: none;
+	}
+}
