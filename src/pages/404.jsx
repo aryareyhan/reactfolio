@@ -18,13 +18,13 @@ const Notfound = () => {
 	return (
 		<React.Fragment>
 			<div className="not-found page-content">
+				<div className="notfound-logo-container">
+					<div className="projects-logo">
+						<Logo width={46} />
+					</div>
+				</div>
 				<NavBar />
 				<div className="content-wrapper">
-					<div className="notfound-logo-container">
-						<div className="projects-logo">
-							<Logo width={46} />
-						</div>
-					</div>
 					<div className="notfound-container">
 						<div className="notfound-message">
 							<div className="notfound-title">

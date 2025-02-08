@@ -34,25 +34,22 @@ const ProjectDetail = () => {
 			</Helmet>
 
 			<div className="page-content">
+				<div className="read-article-logo-container">
+					<div className="read-article-logo">
+						<Logo width={46} />
+					</div>
+				</div>
 				<NavBar />
 				<div className="content-wrapper">
-					<div className="read-article-logo-container">
-						<div className="read-article-logo">
-							<Logo width={46} />
-						</div>
-					</div>
-
 					<div className="read-article-container">
-						<div className="read-article-back">
-							<img
-								src="../back-button.png"
-								alt="back"
-								className="read-article-back-button"
-								onClick={() => navigate(-1)}
-							/>
-						</div>
-
 						<div className="read-article-wrapper">
+							<div
+								className="read-article-back"
+								onClick={() => navigate(-1)}
+							>
+								&lt;&lt; Back to Projects Page
+							</div>
+
 							<div className="title read-article-title">
 								{project.title}
 							</div>
@@ -61,19 +58,12 @@ const ProjectDetail = () => {
 								{project.description}
 							</div>
 
-							<div className="read-article-img-container">
-								<img
-									src={`../projects/${project.img}.png`}
-									alt="none"
-									className="read-article-img"
-								/>
-							</div>
-
 							<a
 								href={project.link}
 								target="_blank"
 								rel="noopener noreferrer"
 								onClick={(e) => e.stopPropagation()}
+								style={{ textDecoration: "none" }}
 							>
 								<div className="project-link">
 									<div className="project-link-icon">
@@ -84,6 +74,14 @@ const ProjectDetail = () => {
 									</div>
 								</div>
 							</a>
+
+							<div className="read-article-img-container">
+								<img
+									src={`../projects/${project.img}.png`}
+									alt="none"
+									className="read-article-img"
+								/>
+							</div>
 						</div>
 					</div>
 				</div>

@@ -30,14 +30,13 @@ const Articles = () => {
 			</Helmet>
 
 			<div className="page-content">
+				<div className="articles-logo-container">
+					<div className="articles-logo">
+						<Logo width={46} />
+					</div>
+				</div>
 				<NavBar active="articles" />
 				<div className="content-wrapper">
-					<div className="articles-logo-container">
-						<div className="articles-logo">
-							<Logo width={46} />
-						</div>
-					</div>
-
 					<div className="articles-main-container">
 						<div className="title articles-title">
 							{INFO.articles.title}
