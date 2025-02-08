@@ -11,10 +11,10 @@ const AllProjects = () => {
 					<Project
 						logo={project.logo}
 						title={project.title}
-						description={project.description}
 						linkText={"Github"}
 						github={project.link}
 						link={`/projects/${index}`}
+						thumbnail={`../thumbnail/${project.img}.png`}
 					/>
 				</div>
 			))}

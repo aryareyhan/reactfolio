@@ -16,7 +16,7 @@ const ProjectDetail = () => {
 
 	const { index } = useParams();
 	const projectIndex = parseInt(index, 10);
-	const project = INFO.projects[projectIndex];
+	const project = INFO.projectpage.projects[projectIndex];
 
 	useEffect(() => {
 		window.scrollTo(0, 0);

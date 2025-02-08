@@ -98,14 +98,15 @@ const INFO = {
 				img: "parking",
 			},
 
-			{
-				title: "Contacts App",
-				description:
-					"This React-based app was created as a personal learning project. It offers a user-friendly interface for managing contacts efficiently. Explore features such as adding, editing, and deleting contacts, all designed to enhance familiarity with React development.",
-				logo: faJsSquare,
-				link: "https://github.com/aryareyhan/ContactsApp",
-				img: "contactlist",
-			},
+			// {
+			// 	title: "Contacts App",
+			// 	description:
+			// 		"This React-based app was created as a personal learning project. It offers a user-friendly interface for managing contacts efficiently. Explore features such as adding, editing, and deleting contacts, all designed to enhance familiarity with React development.",
+			// 	logo: faJsSquare,
+			// 	link: "https://github.com/aryareyhan/ContactsApp",
+			// 	img: "contactlist",
+			// 	thumbnail: "test",
+			// },
 
 			{
 				title: "Keyboard Store",
@@ -125,14 +126,15 @@ const INFO = {
 				img: "todolist",
 			},
 
-			{
-				title: "AA Hotel",
-				description:
-					"This landing page for a hotel was developed as part of a course assignment. Built with HTML, CSS, and JavaScript, it features a clean and attractive design to showcase the hotel's amenities and services. The page includes sections for room descriptions, customer testimonials, and contact information, demonstrating skills in front-end web development and responsive design.",
-				logo: faHtml5,
-				link: "https://github.com/aryareyhan/HotelWeb",
-				img: "hotel",
-			},
+			// {
+			// 	title: "AA Hotel",
+			// 	description:
+			// 		"This landing page for a hotel was developed as part of a course assignment. Built with HTML, CSS, and JavaScript, it features a clean and attractive design to showcase the hotel's amenities and services. The page includes sections for room descriptions, customer testimonials, and contact information, demonstrating skills in front-end web development and responsive design.",
+			// 	logo: faHtml5,
+			// 	link: "https://github.com/aryareyhan/HotelWeb",
+			// 	img: "hotel",
+			// 	thumbnail: "test",
+			// },
 		],
 	},
 };
