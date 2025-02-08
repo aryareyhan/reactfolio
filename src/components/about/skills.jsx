@@ -17,8 +17,8 @@ import { faC, faDatabase, faF } from "@fortawesome/free-solid-svg-icons";
 
 const Skills = () => {
 	return (
-		<div style={{ display: "flex", gap: "5em", padding: "1em" }}>
-			<div className="socials">
+		<div className="skills-container">
+			<div className="skills">
 				<div className="social">
 					<div>
 						<div className="social-icon">
@@ -79,7 +79,7 @@ const Skills = () => {
 					</div>
 				</div>
 			</div>
-			<div className="socials">
+			<div className="skills">
 				<div className="social">
 					<div>
 						<div className="social-icon">

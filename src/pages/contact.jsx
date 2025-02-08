@@ -39,35 +39,11 @@ const Contact = () => {
 
 					<div className="contact-container">
 						<div className="title contact-title">
-							Let's Get in Touch: Ways to Connect with Me
+							{INFO.contact.title}
 						</div>
 
 						<div className="subtitle contact-subtitle">
-							Thank you for reaching out! I'm enthusiastic about
-							exploring new job opportunities and expanding my
-							network, as well as making new friends along the
-							way. Your feedback, questions, and suggestions are
-							highly valued. If you'd like to connect or have any
-							inquiries, feel free to reach me out via Instagram
-							at{" "}
-							<a
-								href={`mailto:${INFO.socials.instagram}`}
-								target="_blank"
-								rel="noreferrer"
-							>
-								{INFO.socials.instagram}
-							</a>
-							. or connect with me on LinkedIn at{" "}
-							<a
-								href={INFO.socials.linkedin}
-								target="_blank"
-								rel="noreferrer"
-							>
-								{INFO.socials.linkedin}
-							</a>
-							. I'm active on both platforms and look forward to
-							engaging with you there. Thank you once again for
-							your interest, and I'm excited to connect with you!
+							{INFO.contact.description}
 						</div>
 					</div>
 

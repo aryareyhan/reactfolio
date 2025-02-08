@@ -14,7 +14,7 @@
 }
 
 .contact-subtitle {
-	width: 100% !important;
+	width: 85% !important;
 }
 
 .contact-container {
@@ -27,13 +27,14 @@
 .socials-container {
 	display: flex;
 	flex-direction: column;
-	margin-top: 80px;
+	margin-top: 40px;
 }
 
 .contact-socials {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
+	padding-bottom: 40px;
 }
 
 @media (max-width: 1024px) {

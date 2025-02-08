@@ -14,11 +14,6 @@
 }
 
 .about-container {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	height: 100%;
-	margin: 0;
 	padding-top: 120px;
 }
 
@@ -33,10 +28,18 @@
 }
 
 .about-title {
-	width: 100% !important;
+	width: 85% !important;
 }
 
-.about-subtitle,
+.about-subtitle {
+	width: 85% !important;
+}
+
+.about-subsubtitle {
+	width: 85% !important;
+	padding-bottom: 60px;
+}
+
 .about-info {
 	width: 80% !important;
 }
@@ -113,7 +116,7 @@
 
 @media (max-width: 600px) {
 	.about-container {
-		padding-top: 60px;
+		padding-top: 120px;
 	}
 
 	.about-image-container {

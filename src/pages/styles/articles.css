@@ -26,6 +26,10 @@
 	flex-direction: column;
 }
 
+.articles-title {
+	width: 90% !important;
+}
+
 .articles-wrapper {
 	padding-top: 10px;
 	display: flex;

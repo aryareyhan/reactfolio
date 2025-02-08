@@ -27,13 +27,17 @@
 	padding-top: 120px;
 }
 
+.projects-title {
+	width: 85% !important;
+}
+
 .projects-subtitle {
 	width: 100% !important;
 }
 
 @media (max-width: 600px) {
 	.projects-container {
-		padding-top: 60px;
+		padding-top: 120px;
 	}
 
 	.projects-project {
@@ -42,5 +46,9 @@
 
 	.projects-logo {
 		display: none;
+	}
+
+	.projects-title {
+		width: 100% !important;
 	}
 }
