@@ -19,6 +19,7 @@
 	height: 100%;
 	margin: 0;
 	padding-top: 120px;
+	padding-bottom: 60px;
 }
 
 .articles-container {
@@ -28,6 +29,10 @@
 
 .articles-title {
 	width: 90% !important;
+}
+
+.articles-subtitle {
+	font-weight: bold;
 }
 
 .articles-wrapper {

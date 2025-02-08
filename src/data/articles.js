@@ -3,7 +3,7 @@ function binus() {
 		date: "Sep 2021 - Present",
 		title: "Computer Science - Bina Nusantara University",
 		description:
-			"Streaming in Mobile Application Technology with a 3.8 GPA, I actively engaged in various organizations and participated in numerous events throughout my college years.",
+			"With a GPA of 3.83/4.00 in Mobile Application Technology, I've immersed myself in both academics and extracurriculars. I've actively contributed to various organizations, participating in tech-related events and community activities. As part of the campus orientation program, I helped new students adjust to university life. Additionally, my participation in the ICPC competitive programming competition sharpened my problem-solving and algorithmic thinking skills, preparing me for more complex challenges ahead.",
 	};
 }
 
@@ -12,7 +12,7 @@ function bca() {
 		date: "19 Feb 2024 - Present",
 		title: "App Developer Intern - Bank Central Asia",
 		description:
-			"Responsible in handling applications related to customer service, spanning from mobile applications and websites to social media and several internal applications. Specifically, my team focuses on the development and enhancement of these applications, application monitoring, DevOps automation, and application testing.",
+			"During my time as an Application Developer Intern at Bank Central Asia, I contributed to developing and maintaining a full-stack internal web application using React, Spring Boot, and PostgreSQL to streamline operational requests and centralize information. I also designed a feature to improve the efficiency of reimbursement approvals, making processes smoother. Additionally, I worked on exploring the integration of Flutter modules into an Android app and conducted both manual and automated testing, collaborating with the team through GitLab for version control.",
 	};
 }
 
@@ -21,62 +21,39 @@ function graphicDesign() {
 		date: "Nov 2022 - May 2023",
 		title: "Graphic Designer",
 		description:
-			"In charge of designing graphical content for social media and advertisement related contents. Succeeded in increasing social media engagement by 40%.",
+			"In my role as a Graphic Designer, I designed a variety of social media graphics, including event posts, informational updates, and news highlights, alongside advertisement materials like banners and posters. Through strategic content creation, I boosted social media engagement, increasing Instagram likes by 40% per post, which helped grow the online presence and reach.",
 	};
 }
 
-function fl() {
+function flfp() {
 	return {
-		date: "Jul 2022 - Sep 2022",
-		title: "Freshmen Leader B26 First Year Program",
+		date: "2022 - 2023",
+		title: "Freshmen Leader and Partner of B26 First Year Program",
 		description:
-			"Led an intensive one-week orientation program at BINUS University, welcoming and assisting freshmen. Coordinated and supervised 60 freshmen alongside four other student leaders, ensuring adherence to guidelines and fostering a vibrant, enjoyable atmosphere.",
+			"I led a one-week orientation program, coordinating 60 freshmen with a team of four to ensure a smooth, engaging, and rule-compliant experience. Additionally, I served as a year-long orientation partner, guiding 40 freshmen through their transition into university life, offering continuous support and valuable insights along the way.",
 	};
 }
 
-function fp() {
+function himti() {
 	return {
-		date: "Jul 2022 - Sep 2022",
-		title: "Freshmen Partner B26 First Year Program",
+		date: "2021 - 2023",
+		title: "Himpunan Mahasiswa Teknik Informatika - Public Relation Staff",
 		description:
-			"Partnered in a year-long orientation initiative at BINUS University focused on facilitating freshmen's transition into the university environment. Assisted 40 freshmen in seamlessly adapting to campus life, offering guidance, support, and valuable insights throughout their journey.",
+			"I had the opportunity to host a collaborative event with HIMAIF Telkom University and a Mobile Legends tournament with BINUS TV, bringing together 16 high schools from across Bandung. As part of the Creative and Design team, I designed key event materials, including logos, merchandise, virtual backgrounds, and presentation templates, helping to elevate the event’s branding and visual identity..",
 	};
 }
 
-function mc() {
+function bncc() {
 	return {
-		date: "Oct 2021 - May 2022",
-		title: "Master of Ceremony",
+		date: "2021 - 2023",
+		title: "Bina Nusantara Computer Club - Research and Development Staff",
 		description:
-			"• CSR 2021: Co-organized a seminar with BNCC Bandung, Dicoding Indonesia, and TFI Bandung, attracting over 800 attendees.\n" +
-			"• BINECHA 2022: Collaborated on a Mobile Legends tournament with HIMTI BINUS Bandung and Binus TV, engaging 16 high schools from across Bandung.\n" +
-			"• Telkom Comparative Study: Co-hosted an event with HIMAIF Telkom University, evaluating organizational challenges.\n" +
-			"• LnT Camp 2022: Contributed to a summer course by BNCC Bandung, focusing on Web Development covering Front End, Back End, and UI/UX.",
-	};
-}
-
-function pr() {
-	return {
-		date: "Mar 2022 - May 2022",
-		title: "Public Relation Staff",
-		description:
-			"• Maintained positive relationships with key stakeholders.\n" +
-			"• Successfully secured sponsorship from Anchor Visual and Design.\n" +
-			"• Established media partnerships with Binus TV and AIESEC.",
-	};
-}
-
-function cnd() {
-	return {
-		date: "Feb 2022",
-		title: "Creative and Design Staff",
-		description:
-			"Responsible for creating design attributes for HILET 2022, including logos, merchandise, virtual backgrounds, templates, and more, ensuring a cohesive visual identity for the event.",
+			"I participated in the training phase for my organization's website development, focusing on the front-end to enhance user experience. Also as part of the Public Relations team, I successfully secured sponsorships and media partnerships for a webinar. Additionally, I hosted a monthly tech webinar series and the CSR 2021 seminar in collaboration with Dicoding Indonesia, which attracted over 800 participants.",
 	};
 }
 
 const myArticles = [binus];
 const myWorks = [bca, graphicDesign];
-const myOrgs = [fl, fp, mc, pr, cnd];
+const myOrgs = [flfp, bncc, himti];
 
 export { myArticles, myWorks, myOrgs };

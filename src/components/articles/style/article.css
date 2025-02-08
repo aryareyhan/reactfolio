@@ -14,10 +14,8 @@
 }
 
 .article-right-side {
-	/* min-width: 700px; */
 	mix-blend-mode: normal;
-	opacity: 0.8;
-	padding: 30px 0px;
+	padding: 10px 0px 0px;
 }
 
 .article-date {
@@ -45,17 +43,4 @@
 	font-size: 14px;
 	color: var(--link-color);
 	font-weight: 700;
-}
-
-@media (max-width: 1024px) {
-	.article-left-side {
-		/* min-width: 10%;
-		max-width: 10%; */
-	}
-
-	.article-right-side {
-		/* flex-basis: 90%;
-		min-width: 85%;
-		max-width: 85%; */
-	}
 }
