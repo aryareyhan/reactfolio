@@ -32,7 +32,7 @@ const INFO = {
 	about: {
 		title: "Here lies some facts about myself. 🧭",
 		description:
-			"I'm a Computer Science student passionate about technology and innovation. Currently, I'm expanding my expertise in data science, data analysis, and machine learning to stay ahead in the industry, all while leveraging my hands-on experience as a full-stack web developer intern and a self-taught mobile app creator. Known for my quick learning and collaborative spirit, I'm eager to transition into a data science role with a special focus on biology, consistently seeking out challenges that fuel my growth as a versatile developer.",
+			"I'm a Computer Science student passionate about technology and innovation. Currently, I'm expanding my expertise in cybersecurity, system defense, and threat analysis to stay ahead in the industry, all while leveraging my hands-on experience as a full-stack web developer intern and a self-taught mobile app creator. Known for my quick learning and collaborative spirit, I'm eager to grow further in the cybersecurity field, consistently seeking challenges that strengthen my adaptability and deepen my understanding as a versatile developer.",
 		description2:
 			"Outside the digital realm, I embrace a lifestyle that keeps me energized and inspired. Whether it's a quick badminton match, a refreshing run, or an efficient workout session, I enjoy staying active without sacrificing time. I also love taking leisurely rides on my motorcycle, where cruising through the city offers a chill, scenic escape that perfectly balances my technical pursuits.",
 		info: "Some skills I've learned",
